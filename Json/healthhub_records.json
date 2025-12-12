@@ -1,0 +1,26 @@
+[
+    {
+        "label": "Fever and Cough",
+        "type": "Symptoms",
+        "description": "High temperature, persistent cough, fatigue.",
+        "datetime": "2025-12-11 10:00 AM",
+        "severity": "Mild",
+        "id": 1
+    },
+    {
+        "label": "Fever and Cough\n",
+        "type": "Medicine",
+        "description": "Drink Paracetamol. ",
+        "datetime": "2025-12-11 8:00 PM",
+        "severity": "Moderate",
+        "id": 2
+    },
+    {
+        "label": "Dr. Smith Follow-up\n",
+        "type": "Appointment",
+        "description": "Discussing recent blood test results and medication adjustments.",
+        "datetime": "2025-12-15 11:00 AM",
+        "severity": "Mild",
+        "id": 3
+    }
+]
