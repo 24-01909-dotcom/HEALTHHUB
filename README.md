@@ -194,10 +194,44 @@ Screens like `Dashboard`, `RecordForm`, and `WellnessHabitsForm` call these func
 
 ---
 
-Trace the flow starting at `healthhub.py` to understand how GUI actions trigger JSON-based CRUD operations. This provides a full picture of the HealthHub architecture and how screens, forms, and records interact seamlessly.
+## 11. Workflow Overview
+
+1. **StartScreen → Dashboard**
+
+   * Users start the app and navigate to the dashboard.
+
+2. **Dashboard → Quick Add / Edit Form**
+
+   * Select “Quick Add” or existing record → RecordForm or WellnessHabitsForm.
+
+3. **Form → Save / Delete → Dashboard**
+
+   * Save updates JSON file and refresh dashboard.
+   * Delete removes record and updates dashboard immediately.
+
+4. **Dashboard → Saved Info Screen**
+
+   * Provides a read-only overview of all saved records.
 
 ---
 
-I can also create a **visual repository map diagram** highlighting JSON storage, forms, dashboard, and CRUD flow if you want a diagram-style README.
+## 12. Common Issues & Solutions
 
-Do you want me to add that?
+* **Image Not Found**: Make sure `FRONT PAGE.png` exists in the `IMAGE/` folder.
+* **Empty Treeview**: Check if JSON files exist. The app auto-creates them if missing.
+* **ID Conflicts**: `next_id` and `next_wellness_id` are reset based on max ID in JSON. Do not manually edit JSON IDs.
+* **Python Version Issues**: Use Python 3.11+ for full compatibility.
+
+---
+
+## 13. Extending HealthHub
+
+* Add new wellness categories or record types.
+* Connect to SQLite or MySQL for multi-user support.
+* Implement filtering, search, and export (CSV/Excel).
+* Add charts or visual analytics (e.g., matplotlib, seaborn) for wellness trends.
+* Introduce login/authentication for multi-user functionality.
+
+---
+
+Trace the flow starting at `healthhub.py` to understand how GUI actions trigger JSON-based CRUD operations. This provides a full picture of the HealthHub architecture and how screens, forms, and records interact seamlessly.
