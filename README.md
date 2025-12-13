@@ -216,3 +216,12 @@ Screens like `Dashboard`, `RecordForm`, and `WellnessHabitsForm` call these func
 ---
 
 Trace the flow starting at `healthhub.py` to understand how GUI actions trigger JSON-based CRUD operations. This provides a full picture of the HealthHub architecture and how screens, forms, and records interact seamlessly.
+
+---
+
+### Information Table
+
+| | Name | Role |
+|----------|----------|----------|
+|<img src="images/Micha.jpg" width="120">| Panaligan, Michaela C. |
+
