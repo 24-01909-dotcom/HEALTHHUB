@@ -221,7 +221,6 @@ Trace the flow starting at `healthhub.py` to understand how GUI actions trigger 
 
 ### Information Table
 
-| | Name | Role |
+| | Name | Section |
 |----------|----------|----------|
-|<img src="images/Micha.jpg" width="120">| Panaligan, Michaela C. |
-
+|<img src="IMAGE/IKAY.jpg" width="120">| Panaligan, Michaela C. | BSIT 2108 |
